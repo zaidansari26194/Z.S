@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Me - [Your Hacker Alias]</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      background-color: #0b0b0b;
+      color: #00ffcc;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 600px;
+      width: 90%;
+      margin-top: 50px;
+      background: #161616;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 30px rgba(0, 255, 204, 0.2);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 36px;
+    }
+
+    p {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      background-color: #0f0f0f;
+      border: 1px solid #00ffcc;
+      color: #00ffcc;
+      border-radius: 5px;
+    }
+
+    form input[type="submit"] {
+      background-color: #00ffcc;
+      color: #000;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    form input[type="submit"]:hover {
+      background-color: #00ccaa;
+    }
+
+    .social-icons {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      font-size: 24px;
+      color: #00ffcc;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #ffffff;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 12px;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Contact Me</h1>
+    <p>Have a question, a project, or just want to say hi? Drop a message below or reach out on social.</p>
+
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <input type="submit" value="Send Message" />
+    </form>
+
+    <div class="social-icons">
+      <a href="https://t.me/yourusername" target="_blank" title="Telegram">
+        <i class="fab fa-telegram-plane"></i>
+      </a>
+      <a href="https://instagram.com/zaid_ansari_26194" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://facebook.com/yourusername" target="_blank" title="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 [Z.S] • <a href="https://hackerbrother.com" style="color: #00ffcc;">hackerbrother.com</a>
+  </footer>
+
+</body>
+</html>
